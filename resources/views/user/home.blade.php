@@ -83,11 +83,15 @@
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
 
-            @if (Route::has('login'))
+            @if(Route::has('login'))
+
             @auth
             <x-app-layout>
             </x-app-layout>
+
+           
             @else
+
             <li class="nav-item">
               <a class="btn btn-primary ml-lg-3" href="{{ route('login') }}">Login</a>
             </li>
@@ -99,6 +103,8 @@
               @endauth
                 
               @endif
+
+
           </ul>
         </div> <!-- .navbar-collapse -->
       </div> <!-- .container -->
@@ -166,7 +172,7 @@
     </div> <!-- .bg-light -->
   </div> <!-- .bg-light -->
 
- @include('user.doctor')
+ @include('user.doctor')    
  @include('user.latest')
  @include('user.appointment')
 
