@@ -1,3 +1,8 @@
+<style>
+  .ass {
+    background-color: seagreen;   
+  }
+</style>
 <div class="page-section">
     <div class="container">
       <h1 class="text-center wow fadeInUp">Make an Appointment</h1>
@@ -32,7 +37,7 @@
             <textarea name="message" id="message" class="form-control" rows="6" placeholder="Enter message.."></textarea>
           </div>
         </div>
-          <button type="submit" class="btn btn-primary mt-5 wow zoomIn">Submit Request</button>
+          <button type="submit" class="btn btn-primary mt-5 ass wow zoomIn">Submit Request</button>
        
      </form>
     </div>
