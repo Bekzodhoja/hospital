@@ -58,7 +58,7 @@
 
                   <div style="padding: 15px">
                     <label for="">Phone</label>
-                    <input type="text" style="color: black;" name="number" placeholder="Write the number" required="">
+                    <input type="number" style="color: black;" name="phone" placeholder="Write the number" required="">
                   </div>
 
                   <div style="padding: 15px">
